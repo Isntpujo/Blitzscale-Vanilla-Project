@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blitzscale</title>
+    <link rel="icon" type="image/x-icon" href="Logo/Logo Mark Blitzscale White.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+  </head>
+  <body>
+    <container class="main-container">
+      <div class="menu-bar-wrap">
+        <div class="menu-bar">
+          <nav class="nav-bar">
+            <svg class="logo-blitzscale" width="126" height="20" viewBox="0 0 126 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.0807 0.636719C13.5443 0.636719 16.0912 2.6988 16.0912 5.4948C16.0912 7.7076 14.4995 9.43032 12.2997 9.69816C14.9906 9.94632 16.8823 11.8135 16.8823 14.3273C16.8823 17.287 14.2691 19.362 10.5439 19.362H0.972656V0.636719H10.0811H10.0807ZM13.3615 5.84808C13.3615 4.1916 12.0712 3.18984 9.93138 3.18984H3.7245V8.72232H9.95058C11.9867 8.72232 13.3615 7.5636 13.3615 5.84808ZM10.1522 16.8089C12.8301 16.8089 14.1525 15.8724 14.1525 13.9673C14.1525 12.0622 12.8431 11.1454 10.1584 11.1454H3.72162V16.8089H10.1522Z"
+                fill="black"
+              />
+              <path d="M21.152 0.638672H18.5V19.3611H21.152V0.638672Z" fill="black" />
+              <path d="M25.4191 3.25662H22.7656V0.640625H25.4191V3.25662ZM25.4191 19.363H22.7671V4.92606H25.4191V19.363Z" fill="black" />
+              <path
+                d="M33.446 19.7475C30.5718 19.7475 28.9998 17.9724 28.9998 14.5812V7.15035H27.0352V4.92459H28.9998V0.638672H31.6518V4.92459H36.4321V7.15035H31.6518V14.5875C31.6518 16.5003 32.3459 17.3902 33.8905 17.3902C34.4934 17.3902 35.3252 17.2524 36.4307 16.9577V19.2497C35.3171 19.5838 34.322 19.7475 33.4451 19.7475H33.4465H33.446Z"
+                fill="black"
+              />
+              <path d="M41.0718 17.1342H50.3891V19.3666H38.0469V16.9834L46.8669 7.16217H38.0469V4.92969H49.8846V7.31289L41.0718 17.1342Z" fill="black" />
+              <path
+                d="M66.3882 6.27966H63.7036C63.7036 4.10574 61.7792 2.7315 58.99 2.7315C56.6461 2.7315 54.2034 3.70062 54.2034 5.85486C54.2034 7.7403 56.0759 8.0547 59.0485 8.50686L60.0176 8.65086C63.1933 9.12894 67.0688 9.73086 67.0688 13.9808C67.0688 17.8697 63.8284 19.7561 59.2381 19.7561C54.2096 19.7561 51.1914 17.4838 51.1914 13.5493H53.876C53.876 15.8801 55.9314 17.2678 59.1992 17.2678C62.0087 17.2678 64.3784 16.2464 64.3784 13.9285C64.3784 11.8534 62.4656 11.5453 59.8007 11.1387L58.5834 10.9558C55.3756 10.471 51.5188 9.90846 51.5188 5.91438C51.5188 2.16174 54.9234 0.244141 59.0092 0.244141C63.4813 0.244141 66.3882 2.54238 66.3882 6.28062V6.27918V6.27966Z"
+                fill="black"
+              />
+              <path
+                d="M75.7517 17.3578C78.1416 17.3578 79.4121 15.8261 79.7654 13.9195H82.4174C81.9849 17.2003 79.6147 19.7535 75.7459 19.7535C71.5157 19.7535 68.6875 16.7026 68.6875 12.1383C68.6875 7.57394 71.5161 4.5293 75.7459 4.5293C79.6214 4.5293 81.9912 7.08242 82.4174 10.3632H79.7654C79.4184 8.45858 78.1478 6.92642 75.7517 6.92642C73.0219 6.92642 71.339 8.91026 71.339 12.1378C71.339 15.3653 73.0219 17.3559 75.7517 17.3559V17.3573V17.3578Z"
+                fill="black"
+              />
+              <path
+                d="M91.0306 4.53173C95.3064 4.53173 97.886 6.87557 97.886 10.7981V19.3618H95.234V15.4796C94.5337 18.1378 92.3343 19.7554 89.2887 19.7554C86.2431 19.7554 84.0312 18.014 84.0312 15.4013C84.0312 12.7887 86.1792 11.1317 89.6626 11.1317H95.234V10.7976C95.234 8.42117 93.5972 6.93509 90.984 6.93509C88.3709 6.93509 87.108 8.13317 87.108 9.95333H84.456C84.456 6.63365 86.9832 4.53269 91.0292 4.53269L91.0306 4.53125V4.53173ZM89.6362 13.358C87.6845 13.358 86.6511 14.0324 86.6511 15.3159C86.6511 16.6844 87.842 17.4442 90.0034 17.4442C93.0668 17.4442 95.2345 15.9188 95.2345 13.7578V13.3589H89.6352L89.6367 13.3575L89.6362 13.358Z"
+                fill="black"
+              />
+              <path d="M102.156 0.638672H99.5039V19.3611H102.156V0.638672Z" fill="black" />
+              <path
+                d="M117.494 14.5743C116.747 17.8085 114.246 19.7535 110.868 19.7535C106.619 19.7535 103.77 16.6896 103.77 12.1186C103.77 7.54754 106.585 4.5293 110.782 4.5293C114.979 4.5293 117.559 7.47602 117.559 12.0783C117.559 12.4119 117.546 12.72 117.514 13.1059H106.475C106.783 15.7512 108.433 17.3559 110.934 17.3559C112.845 17.3559 114.136 16.4127 114.842 14.5728H117.494V14.5738V14.5743ZM114.816 10.8168C114.463 8.3093 113.048 6.92786 110.797 6.92786C108.546 6.92786 106.927 8.3885 106.527 10.8168H114.817H114.816Z"
+                fill="black"
+              />
+              <path
+                d="M122.606 16.6039C122.692 16.5679 122.775 16.5213 122.854 16.4661C122.961 16.3913 123.047 16.2919 123.113 16.1705C123.178 16.0476 123.212 15.8954 123.212 15.7193C123.212 15.5033 123.166 15.3218 123.076 15.1797C122.984 15.0357 122.845 14.9277 122.662 14.8586C122.485 14.7919 122.26 14.7578 121.995 14.7578H121.07V18.0573H121.581V16.7412H122.123L122.896 18.0573H123.493L122.606 16.6044V16.6039ZM122.688 15.7365C122.688 15.9204 122.637 16.0543 122.531 16.146C122.423 16.2391 122.248 16.2861 122.009 16.2861H121.581V15.2191H121.973C122.224 15.2191 122.41 15.2599 122.526 15.3396C122.635 15.4164 122.688 15.546 122.688 15.7365Z"
+                fill="black"
+              />
+              <path
+                d="M122.075 19.361C120.446 19.361 119.121 18.0352 119.121 16.407C119.121 14.7789 120.447 13.4531 122.075 13.4531C123.703 13.4531 125.029 14.7784 125.029 16.407C125.029 18.0357 123.704 19.361 122.075 19.361ZM122.075 14.0056C120.751 14.0056 119.674 15.0832 119.674 16.407C119.674 17.7309 120.751 18.8085 122.075 18.8085C123.399 18.8085 124.476 17.7309 124.476 16.407C124.476 15.0832 123.399 14.0056 122.075 14.0056Z"
+                fill="black"
+              />
+            </svg>
+            <ul class="menu-list">
+              <li>Home</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Why Us</li>
+              <li>Team</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+            </ul>
+            <div class="menu-hamberger">
+              <svg width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 15V13.2857H16.5V15H1.5ZM1.5 9.85714V8.14286H16.5V9.85714H1.5ZM1.5 4.71429V3H16.5V4.71429H1.5Z" fill="black" />
+              </svg>
+            </div>
+          </nav>
+        </div>
+        <!-- End Of Menubar -->
+      </div>
+      <!-- End Of Menubar Wrap -->
+      <header class="section-header">
+        <div class="kosong-wraper">
+          <div class="kosong"></div>
+        </div>
+        <div class="headline-dan-cta-wrap">
+          <div class="headline-dan-cta">
+            <div class="experience-number">
+              <div class="member">
+                <div>Members</div>
+                <div class="num"><b>20+</b></div>
+              </div>
+              <div class="experience">
+                <div>Years of Experience</div>
+                <div class="num"><b>10Y+</b></div>
+              </div>
+              <div class="project">
+                <div>Projects</div>
+                <div class="num"><b>25+</b></div>
+              </div>
+            </div>
+            <div class="headline">Innovative Technology Consultancy.</div>
+            <div class="cta">
+              <div class="cta-text">From Concept to Launch.</div>
+              <div class="cta-button">
+                <button id="cta-button-click">Contact Us!</button>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Headline & CTA -->
+        </div>
+        <!-- End Of Headline & CTA Wrap -->
+      </header>
+      <!-- End Of Section Header -->
+      <div class="section-expertise">
+        <div class="headline-dan-desc-expertise-wraper">
+          <div class="headline-dan-desc-expertise">
+            <div class="headline-expertise">Our Expertise</div>
+            <div class="desc-expertise">Our expertise spans across various facets of blockchain technology, each tailored to meet the unique needs of different industries and projects.</div>
+          </div>
+          <!-- End Of Headline & Desc Expertise -->
+        </div>
+        <!-- End Of Headline & Desc Expertise Wraper -->
+        <div class="card-expertise-wraper">
+          <div class="card-expertise">
+            <div class="card">
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/lightning.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Real World Asset Tokenization</div>
+              </div>
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/blitzscale.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Company Formation</div>
+              </div>
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/dollar.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Legal Consultancy</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/wallet.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Custodial, Semi-Custodial, and Non-Custodial Wallet Platforms</div>
+              </div>
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/stats.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Government Services</div>
+              </div>
+              <div class="card-1">
+                <div class="card-icon"><img src="/Icon/bitcoin.png" alt="Image Arrow" /></div>
+                <div class="card-1-headline">Integrating Traditional Business into Blockchain Tech</div>
+              </div>
+            </div>
+            <div class="button-more-wrap">
+              <div class="button-more">
+                <button id="cta-button-more">View More</button>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Card Expertise -->
+        </div>
+        <!-- End Of Card Expertise Wraper -->
+      </div>
+      <!-- End Of Section Expertise -->
+      <div class="section-aboutus">
+        <div class="aboutus-desc-wrap">
+          <div class="aboutus-desc">
+            <div class="headline-aboutus">About Us</div>
+            <div class="desc-aboutus">
+              BlitzScale is a pioneering consultancy company specializing in Web2 to Web3 transformation and strategic integration.Based in the Philippines' Freeport Area of Bataan (FAB), BlitzScale leverages cutting-edge technology to
+              drive sustainable growth.
+            </div>
+          </div>
+          <!-- End Of Aboutus Desc -->
+        </div>
+        <!-- End Of Aboutus Desc Wrap -->
+        <div class="aboutus-content-wrap">
+          <div class="aboutus-content">
+            <div class="aboutus-logo"><img id="aboutus-blitzscale-logo" src="/Logo/blitzscale-chrome.png" alt="Logo Blitzscale" /></div>
+            <div class="aboutus-desc-accordion-wrap">
+              <div class="our-vision">
+                <div class="icon-our-vision">
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6 5.30048L6 19.7009C6.00046 19.8467 6.04074 19.9896 6.11651 20.1142C6.19228 20.2389 6.30067 20.3405 6.43001 20.4083C6.55935 20.476 6.70475 20.5072 6.85055 20.4986C6.99634 20.49 7.13702 20.4418 7.25744 20.3593L17.676 13.1591C18.108 12.8607 18.108 12.1423 17.676 11.8431L7.25744 4.64286C7.13728 4.55952 6.99652 4.51065 6.85048 4.50155C6.70444 4.49246 6.5587 4.52349 6.42908 4.59127C6.29947 4.65906 6.19094 4.76101 6.11529 4.88604C6.03965 5.01107 5.99977 5.15441 6 5.30048Z"
+                      fill="#4C565F"
+                    />
+                  </svg>
+                </div>
+                <div class="title-our-vision">Our Vision</div>
+              </div>
+              <!-- End Of Our Vision -->
+              <div class="our-mission-wrap">
+                <div class="our-mission">
+                  <div class="icon-our-mission">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M19.1995 6L4.79911 6C4.65331 6.00046 4.5104 6.04074 4.38576 6.11651C4.26111 6.19228 4.15946 6.30067 4.09173 6.43001C4.02401 6.55935 3.99278 6.70475 4.0014 6.85054C4.01003 6.99634 4.05819 7.13702 4.14069 7.25744L11.3409 17.676C11.6393 18.108 12.3577 18.108 12.6569 17.676L19.8571 7.25744C19.9405 7.13728 19.9894 6.99652 19.9984 6.85048C20.0075 6.70444 19.9765 6.5587 19.9087 6.42908C19.8409 6.29947 19.739 6.19094 19.614 6.11529C19.4889 6.03965 19.3456 5.99977 19.1995 6Z"
+                        fill="#4C565F"
+                      />
+                    </svg>
+                  </div>
+                  <div class="title-our-mission">Our Mission</div>
+                </div>
+                <!-- End Of Our Mission -->
+                <div class="our-mission-desc">
+                  Our mission at BlitzScale is to empower businesses and government entities by providing comprehensive consultancy services across fintech, blockchain, legal, and more. We aim to be the all-in-one solution, drive
+                  innovation, enhance transparency, and ensure regulatory compliance. By guiding our clients from concept to successful implementation, we strive to unlock the full potential of blockchain, fostering sustainable growth and
+                  creating impactful, real-world applications that transform industries and improve lives.
+                </div>
+              </div>
+              <!-- End Of Our Mission Wrap -->
+            </div>
+            <!-- End Of Aboutus Desc Accordion Wrap -->
+          </div>
+          <!-- End Of Aboutus Content -->
+        </div>
+        <!-- End Of Aboutus Content Wrap -->
+      </div>
+      <!-- End Of Section Aboutus -->
+      <div class="section-whyus">
+        <div class="whyus-title-wrap">
+          <div class="whyus-title">
+            <div class="whyus-headline">Why Us?</div>
+            <div class="whyus-desc">Discover why our innovative solutions set us apart.</div>
+          </div>
+          <!-- End Of Whyus Title -->
+        </div>
+        <!-- End Of Whyus Title Wrap -->
+        <div class="whyus-content-wrap">
+          <div class="whyus-content">
+            <div class="whyus-point-pioneer">
+              <div class="whyus-point-pioneer-headline">Pioneers in The Field</div>
+              <div class="whyus-point-pioneer-desc">We are the first tech consultancy company in the Freeport area of Bataan, supporting blockchain technology and fostering business growth with innovative solutions.</div>
+            </div>
+            <div class="whyus-point-influent">Influential Leadership</div>
+            <div class="whyus-point-transform">Web2 to Web3 Transformation</div>
+            <div class="whyus-point-expertise">Conprehensive Expertise</div>
+          </div>
+          <!-- End Of Whyus Content -->
+        </div>
+        <!-- End Of Whyus Content Wrap -->
+      </div>
+      <!-- End Of Section Whyus -->
+      <div class="section-team">
+        <div class="team-tittle-wrap">
+          <div class="team-tittle">
+            <div class="team-headline">Our Team</div>
+            <div class="team-desc">Meet the seasoned professionals behind BlitzScale who are dedicated to support your success.</div>
+          </div>
+        </div>
+        <div class="carousel-team-wrap">
+          <div class="carousel-team">
+            <div class="carousel-person">
+              <div class="detail-person">
+                <div class="profile-person">
+                  <div class="name-wrap">
+                    <div class="position-person">Fullstack Dev</div>
+                    <div class="name-person">Jose</div>
+                  </div>
+                  <div class="icon-linkedin">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.39459 6.30803C2.66797 7.73411 2.66797 9.60095 2.66797 13.3346V18.668C2.66797 22.4017 2.66797 24.2685 3.39459 25.6946C4.03375 26.949 5.05362 27.9689 6.30803 28.608C7.73411 29.3346 9.60095 29.3346 13.3346 29.3346H18.668C22.4017 29.3346 24.2685 29.3346 25.6946 28.608C26.949 27.9689 27.9689 26.949 28.608 25.6946C29.3346 24.2685 29.3346 22.4017 29.3346 18.668V13.3346C29.3346 9.60095 29.3346 7.73411 28.608 6.30803C27.9689 5.05362 26.949 4.03375 25.6946 3.39459C24.2685 2.66797 22.4017 2.66797 18.668 2.66797H13.3346C9.60095 2.66797 7.73411 2.66797 6.30803 3.39459C5.05362 4.03375 4.03375 5.05362 3.39459 6.30803ZM7.40606 24.8902H11.0918V13.0209H7.40606V24.8902ZM7.11241 9.24698C7.11241 10.4256 8.06837 11.4018 9.24694 11.4018C10.4251 11.4018 11.3815 10.4256 11.3815 9.24698C11.3815 8.68086 11.1566 8.13792 10.7563 7.73761C10.356 7.3373 9.81305 7.11241 9.24694 7.11241C8.68083 7.11241 8.1379 7.3373 7.7376 7.73761C7.3373 8.13792 7.11241 8.68086 7.11241 9.24698ZM21.2084 24.8902H24.8902V18.3702C24.8902 15.1797 24.2045 12.7233 20.4743 12.7233C18.6811 12.7233 17.4791 13.7074 16.987 14.64H16.9354V13.0209H13.4005V24.8902H17.0823V19.0131C17.0823 17.4654 17.3759 15.9694 19.2922 15.9694C21.1807 15.9694 21.2084 17.7353 21.2084 19.1123V24.8902Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="desc-person">
+                  Extensive network in the Philippines and Southeast Asia, experience as a managing director for financial institutions specialized in the acquisition of distressed assets and distressed asset rehabilitation projects.
+                </div>
+              </div>
+              <!-- End Of Detail Person -->
+            </div>
+            <!-- End Of Carousel Person -->
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+            <div class="carousel-person-blank"></div>
+          </div>
+          <!-- End Of Carousel Team -->
+        </div>
+        <!-- End Of Carousel Team Wrap -->
+      </div>
+      <!-- End Of Section Team -->
+      <div class="section-partner">
+        <div class="partner-tittle-wrap">
+          <div class="partner-tittle">
+            <div class="partner-headline">Our Partner</div>
+            <div class="partner-desc">Discover who supporting us.</div>
+          </div>
+          <!-- End Of Partner Tittle -->
+        </div>
+        <!-- End Of Partner Tittle Wrap -->
+        <div class="logo-partner-wrap">
+          <div class="logo-partner">
+            <div class="logo-partner-1">
+              <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M37.8477 99.6125H61.0735C63.6541 99.6125 65.7186 97.548 65.7186 94.9673C65.7186 92.3867 63.6541 90.3222 61.0735 90.3222H37.8477C38.7079 78.6232 48.5143 69.505 60.3853 69.505H61.2455C63.8262 69.505 65.8907 67.4404 65.8907 64.8598C65.8907 62.2792 63.8262 60.2146 61.2455 60.2146H60.3853C48.5143 60.2146 38.7079 51.0964 37.8477 39.3974H99.6111C111.482 39.3974 121.289 48.5157 122.149 60.2146H98.9229C96.3423 60.2146 94.2778 62.2792 94.2778 64.8598C94.2778 67.4404 96.3423 69.505 98.9229 69.505H122.149C121.289 81.2039 111.482 90.3222 99.6111 90.3222H98.7509C96.1702 90.3222 94.1057 92.3867 94.1057 94.9673C94.1057 97.548 96.1702 99.6125 98.7509 99.6125H99.6111C111.482 99.6125 121.289 108.731 122.149 120.43H60.3853C48.5143 120.43 38.7079 111.311 37.8477 99.6125Z"
+                  fill="#B6B6B6"
+                />
+              </svg>
+            </div>
+            <div class="logo-partner-2">
+              <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M117.616 59.2781H118.708V64.0185C118.708 68.6234 114.885 72.4156 110.243 72.4156C106.556 72.4156 103.279 75.1244 102.733 78.6458C102.323 80.8128 103.006 82.9798 104.372 84.7405C105.737 86.3658 107.922 87.3138 110.106 87.3138C114.885 87.3138 118.708 91.1061 118.708 95.8464V100.587H117.616C110.379 100.587 104.098 105.192 101.777 111.828H87.4403V96.2527C87.4403 92.5959 84.7094 89.3454 81.1593 88.8036C80.6132 88.6682 80.067 88.6682 79.6574 88.6682C75.6977 88.9391 72.5572 92.1896 72.5572 96.1173V111.828H58.2203C55.8991 105.192 49.6181 100.587 42.3814 100.587H41.2891V95.8464C41.2891 91.2415 45.1122 87.4493 49.7547 87.4493C53.4413 87.4493 56.7183 84.7405 57.2645 81.2191C57.6741 79.0521 56.9914 76.8851 55.626 75.1244C54.2606 73.4991 52.0759 72.5511 49.8912 72.5511C45.1122 72.5511 41.2891 68.7588 41.2891 64.1539V59.4136H42.3814C49.6181 59.4136 55.8991 54.8087 58.2203 48.1722H72.5572V63.7476C72.5572 67.4044 75.288 70.6549 78.8381 71.1967C79.2478 71.3321 79.7939 71.3321 80.2036 71.3321C84.2998 71.0612 87.4403 67.8107 87.4403 63.883V48.1722H101.777C103.962 54.6732 110.379 59.2781 117.616 59.2781Z"
+                  fill="#B6B6B6"
+                />
+              </svg>
+            </div>
+            <div class="logo-partner-3">
+              <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M80.1708 115.783V78.7941L71.7407 83.6114C56.7729 92.2135 47.4826 108.213 47.4826 125.59H41.2891V83.2673C41.2891 69.5038 49.203 56.7726 61.7622 50.7511L80.3428 41.8049V78.7941L88.7729 73.9769C103.741 65.3748 113.031 49.3748 113.031 31.9985H119.225V74.321C119.225 88.0845 111.311 100.816 98.7514 106.837L80.1708 115.783Z"
+                  fill="#B6B6B6"
+                />
+              </svg>
+            </div>
+            <div class="logo-partner-4">
+              <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M127.313 100.129L110.797 120.43H68.4741L84.9903 100.129L68.4741 79.8275L51.958 100.129L68.4741 120.43H47.4849L30.9688 100.129L47.4849 79.8275L30.9688 59.5265L47.4849 39.2254H89.9795L73.2913 59.5265L89.9795 79.8275L106.496 59.5265L89.9795 39.2254H110.797L127.313 59.5265L110.797 79.8275L127.313 100.129Z"
+                  fill="#B6B6B6"
+                />
+              </svg>
+            </div>
+            <div class="logo-partner-5">
+              <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M107.012 115.27H43.0117C47.6569 114.237 50.9257 110.108 50.9257 105.463V47.6566C57.2913 54.0222 60.7321 62.4523 60.7321 71.3986V103.743C60.7321 104.603 61.4203 105.463 62.4526 105.463C63.3128 105.463 64.173 104.775 64.173 103.743V60.7319C70.5386 67.0975 73.9795 75.5276 73.9795 84.4738V103.743C73.9795 104.603 74.6676 105.463 75.6999 105.463C76.5601 105.463 77.4203 104.775 77.4203 103.743V73.8072L86.0225 82.4093C86.3666 82.7534 86.5386 83.0975 86.7106 83.4416V83.6136C87.0547 84.1297 87.0547 84.6459 87.2268 85.334C88.087 96.5168 97.3773 105.463 108.904 105.463H116.99L107.012 115.27Z"
+                  fill="#B6B6B6"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- End Of Logo Partner -->
+        </div>
+        <!-- End Of Logo Partner Wrap -->
+      </div>
+      <!-- End Of Section Our Partner -->
+      <div class="section-faq">
+        <div class="faq-desc-wrap">
+          <div class="faq-desc">
+            <div class="faq-headline">Frequently Asked Question</div>
+          </div>
+        </div>
+        <!-- End Of FAQ Desc Wrap -->
+        <div class="faq-content-wrap">
+          <div class="faq-content">
+            <div class="faq-point-how">
+              <div class="faq-point-how-headline">How do I get in touch with BlitzScale and request services?</div>
+              <ul class="faq-list-how">
+                <li class="faq-list-how-desc">Click on the "Contact Us" link on our website.</li>
+                <li class="faq-list-how-desc">You will be directed to the Gmail platform.</li>
+                <li class="faq-list-how-desc">Send us an email describing your request.</li>
+                <li class="faq-list-how-desc">We will review your request and get back to you shortly after the review.</li>
+              </ul>
+            </div>
+            <!-- End Of FAQ Point How -->
+            <div class="faq-point-what">What is BlitzScale?</div>
+            <div class="faq-point-where">Where is BlitzScale located?</div>
+          </div>
+        </div>
+        <!-- End Of FAQ Desc Wrap -->
+      </div>
+      <!-- End Of FAQ -->
+      <div class="section-cta">
+        <div class="cta-content-wrap">
+          <div class="cta-content">
+            <div class="headline-cta-blitzscale">Let's Work Together with</div>
+            <svg viewBox="0 0 1170 182" fill="none" class="image-logo-cta" xmlns="http://www.w3.org/2000/svg">
+              <rect width="1170" height="182" fill="#EFEFEF" />
+              <path
+                d="M85.9002 3.65234C118.567 3.65234 142.588 22.8843 142.588 48.9611C142.588 69.5988 127.576 85.6657 106.829 88.1637C132.207 90.4782 150.048 107.893 150.048 131.337C150.048 158.941 125.403 178.293 90.2688 178.293H0V3.65234H85.9047H85.9002ZM116.842 52.256C116.842 36.8069 104.674 27.464 84.4923 27.464H25.9534V79.0625H84.6734C103.877 79.0625 116.842 68.2558 116.842 52.256ZM86.5747 154.482C111.831 154.482 124.303 145.748 124.303 127.98C124.303 110.212 111.953 101.661 86.6336 101.661H25.9262V154.482H86.5747Z"
+                fill="black"
+              />
+              <path d="M190.309 3.67969H165.297V178.294H190.309V3.67969Z" fill="black" />
+              <path d="M230.561 28.0856H205.535V3.6875H230.561V28.0856ZM230.561 178.302H205.549V43.6556H230.561V178.302Z" fill="black" />
+              <path
+                d="M306.268 181.898C279.16 181.898 264.334 165.343 264.334 133.715V64.4108H245.805V43.6522H264.334V3.67969H289.346V43.6522H334.43V64.4108H289.346V133.773C289.346 151.613 295.892 159.912 310.46 159.912C316.146 159.912 323.991 158.628 334.417 155.879V177.255C323.914 180.371 314.529 181.898 306.259 181.898H306.272H306.268Z"
+                fill="black"
+              />
+              <path d="M378.197 157.528H466.071V178.349H349.668V156.122L432.852 64.5243H349.668V43.7031H461.313V65.93L378.197 157.528Z" fill="black" />
+              <path
+                d="M616.962 56.2902H591.643C591.643 36.0151 573.494 23.1983 547.187 23.1983C525.082 23.1983 502.044 32.2368 502.044 52.3283C502.044 69.9128 519.704 72.8451 547.739 77.0621L556.88 78.4051C586.83 82.8639 623.381 88.4777 623.381 128.115C623.381 164.385 592.82 181.978 549.528 181.978C502.103 181.978 473.637 160.786 473.637 124.09H498.956C498.956 145.829 518.341 158.771 549.161 158.771C575.658 158.771 598.008 149.245 598.008 127.627C598.008 108.274 579.967 105.4 554.833 101.608L543.353 99.9023C513.099 95.3808 476.724 90.1341 476.724 52.8834C476.724 17.8845 508.834 0 547.368 0C589.547 0 616.962 21.4345 616.962 56.2991V56.2857V56.2902Z"
+                fill="black"
+              />
+              <path
+                d="M705.261 159.613C727.801 159.613 739.784 145.328 743.116 127.547H768.128C764.049 158.145 741.694 181.957 705.207 181.957C665.31 181.957 638.637 153.503 638.637 110.934C638.637 68.3645 665.314 39.9688 705.207 39.9688C741.758 39.9688 764.108 63.7804 768.128 94.3787H743.116C739.843 76.6151 727.86 62.3254 705.261 62.3254C679.516 62.3254 663.644 80.8277 663.644 110.929C663.644 141.03 679.516 159.595 705.261 159.595V159.609V159.613Z"
+                fill="black"
+              />
+              <path
+                d="M849.38 39.9849C889.707 39.9849 914.035 61.8447 914.035 98.4284V178.297H889.023V142.09C882.418 166.882 861.676 181.968 832.952 181.968C804.228 181.968 783.367 165.727 783.367 141.36C783.367 116.993 803.626 101.54 836.478 101.54H889.023V98.4239C889.023 76.2597 873.586 62.3998 848.941 62.3998C824.296 62.3998 812.385 73.5737 812.385 90.5494H787.374C787.374 59.5885 811.208 39.9939 849.367 39.9939L849.38 39.9805V39.9849ZM836.229 122.303C817.822 122.303 808.076 128.592 808.076 140.563C808.076 153.326 819.307 160.413 839.692 160.413C868.584 160.413 889.028 146.186 889.028 126.032V122.312H836.22L836.234 122.298L836.229 122.303Z"
+                fill="black"
+              />
+              <path d="M954.277 3.67969H929.266V178.294H954.277V3.67969Z" fill="black" />
+              <path
+                d="M1098.96 133.653C1091.92 163.817 1068.33 181.957 1036.47 181.957C996.4 181.957 969.523 153.382 969.523 110.75C969.523 68.1183 996.079 39.9688 1035.66 39.9688C1075.25 39.9688 1099.58 67.4513 1099.58 110.374C1099.58 113.485 1099.46 116.359 1099.15 119.959H995.038C997.944 144.63 1013.5 159.595 1037.09 159.595C1055.12 159.595 1067.29 150.799 1073.95 133.639H1098.96V133.648V133.653ZM1073.71 98.6092C1070.38 75.2229 1057.03 62.3389 1035.8 62.3389C1014.57 62.3389 999.307 75.9615 995.531 98.6092H1073.71H1073.71Z"
+                fill="black"
+              />
+              <path
+                d="M1147.15 152.585C1147.96 152.249 1148.75 151.815 1149.49 151.3C1150.5 150.601 1151.31 149.675 1151.93 148.542C1152.55 147.396 1152.87 145.977 1152.87 144.334C1152.87 142.32 1152.43 140.627 1151.58 139.302C1150.72 137.959 1149.41 136.952 1147.68 136.307C1146.01 135.685 1143.89 135.367 1141.39 135.367H1132.67V166.14H1137.48V153.865H1142.6L1149.88 166.14H1155.52L1147.15 152.589V152.585ZM1147.93 144.495C1147.93 146.21 1147.44 147.459 1146.44 148.314C1145.43 149.182 1143.77 149.621 1141.52 149.621H1137.48V139.669H1141.18C1143.55 139.669 1145.31 140.05 1146.4 140.793C1147.43 141.509 1147.93 142.718 1147.93 144.495Z"
+                fill="black"
+              />
+              <path
+                d="M1142.14 178.302C1126.78 178.302 1114.29 165.938 1114.29 150.753C1114.29 135.568 1126.79 123.203 1142.14 123.203C1157.5 123.203 1170 135.563 1170 150.753C1170 165.942 1157.5 178.302 1142.14 178.302ZM1142.14 128.356C1129.66 128.356 1119.5 138.406 1119.5 150.753C1119.5 163.1 1129.66 173.15 1142.14 173.15C1154.63 173.15 1164.79 163.1 1164.79 150.753C1164.79 138.406 1154.63 128.356 1142.14 128.356Z"
+                fill="black"
+              />
+            </svg>
+            <div class="button-cta-blitzscale">
+              <button id="button-cta-blitzscale-click">Contact Us!</button>
+            </div>
+            <!-- End Of Button CTA Blitzscale -->
+          </div>
+        </div>
+        <!-- End Of CTA Content Wrap -->
+      </div>
+      <!-- End Of CTA -->
+      <footer class="section-footer">
+        <div class="footer-content-wraper">
+          <div class="social-media-footer">
+            <div class="instagram">Instagram</div>
+            <span>/</span>
+            <div class="facebook">Facebook</div>
+            <span>/</span>
+            <div class="twitter">Twitter</div>
+            <span>/</span>
+            <div class="linkedin">Linkedin</div>
+          </div>
+          <!-- End Of Social Media Footer -->
+          <div class="about-copyright-footer">
+            <div class="about-footer">
+              <div class="logo-footer">
+                <svg viewBox="0 0 300 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M94.3429 34.0469C100.54 34.0469 105.096 37.7081 105.096 42.6734C105.096 46.6019 102.249 49.6618 98.3127 50.1376C103.126 50.5777 106.512 53.8933 106.512 58.3575C106.512 63.6131 101.837 67.2985 95.1728 67.2985H78.0469V34.0469H94.3429ZM100.213 43.3013C100.213 40.3601 97.9041 38.5813 94.0759 38.5813H82.9708V48.4049H94.1107C97.7532 48.4049 100.213 46.3473 100.213 43.3013ZM94.4706 62.7652C99.2622 62.7652 101.628 61.1016 101.628 57.7192C101.628 54.3368 99.2843 52.7078 94.4822 52.7078H82.9662V62.7652H94.4706Z"
+                    fill="black"
+                  />
+                  <path d="M114.151 34.0547H109.406V67.3006H114.151V34.0547Z" fill="black" />
+                  <path d="M121.785 38.6998H117.039V34.0547H121.785V38.6998ZM121.785 67.2994H117.04V41.664H121.785V67.2994Z" fill="black" />
+                  <path
+                    d="M136.149 67.986C131.007 67.986 128.194 64.834 128.194 58.8123V45.6178H124.68V41.6651H128.194V34.0547H132.939V41.6651H141.491V45.6178H132.939V58.8238C132.939 62.22 134.179 63.8006 136.944 63.8006C138.023 63.8006 139.511 63.5564 141.489 63.0322V67.1024C139.497 67.6957 137.716 67.986 136.147 67.986H136.149Z"
+                    fill="black"
+                  />
+                  <path d="M149.79 63.3431H166.461V67.3073H144.379V63.0758L160.158 45.6349H144.379V41.6719H165.558V45.9034L149.79 63.3431Z" fill="black" />
+                  <path
+                    d="M195.088 44.0679H190.285C190.285 40.2086 186.842 37.7674 181.851 37.7674C177.657 37.7674 173.287 39.4885 173.287 43.3133C173.287 46.6612 176.637 47.2199 181.955 48.0229L183.689 48.2787C189.371 49.1277 196.306 50.1957 196.306 57.7428C196.306 64.6482 190.508 67.9983 182.295 67.9983C173.299 67.9983 167.898 63.9639 167.898 56.9767H172.702C172.702 61.116 176.379 63.5802 182.226 63.5802C187.252 63.5802 191.492 61.7669 191.492 57.6506C191.492 53.9664 188.07 53.4191 183.302 52.6968L181.123 52.3719C175.383 51.5113 168.483 50.5125 168.483 43.4205C168.483 36.757 174.574 33.3516 181.886 33.3516C189.887 33.3516 195.087 37.4333 195.087 44.0714V44.0691L195.088 44.0679Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M211.835 63.7404C216.111 63.7404 218.384 61.0204 219.015 57.6357H223.761C222.986 63.4616 218.746 67.995 211.824 67.995C204.256 67.995 199.195 62.578 199.195 54.4722C199.195 46.3664 204.256 40.9609 211.824 40.9609C218.758 40.9609 222.998 45.4943 223.761 51.3202H219.015C218.394 47.9378 216.122 45.2178 211.835 45.2178C206.95 45.2178 203.941 48.7407 203.941 54.4722C203.941 60.2036 206.952 63.7381 211.835 63.7381V63.7404Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M239.176 40.9648C246.825 40.9648 251.44 45.1272 251.44 52.0925V67.2996H246.695V60.4057C245.442 65.1257 241.508 67.9989 236.058 67.9989C230.608 67.9989 226.652 64.9068 226.652 60.2675C226.652 55.6281 230.496 52.6858 236.728 52.6858H246.696V52.0925C246.696 47.8725 243.768 45.2332 239.092 45.2332C234.417 45.2332 232.158 47.3599 232.158 50.5925H227.414C227.414 44.6975 231.935 40.9671 239.174 40.9671L239.176 40.9648ZM236.681 56.6373C233.19 56.6373 231.341 57.8343 231.341 60.1142C231.341 62.5439 233.472 63.8941 237.338 63.8941C242.819 63.8941 246.698 61.1856 246.698 57.3482V56.6396H236.68L236.683 56.6373H236.681Z"
+                    fill="black"
+                  />
+                  <path d="M259.077 34.0547H254.332V67.3006H259.077V34.0547Z" fill="black" />
+                  <path
+                    d="M286.525 58.7981C285.189 64.5411 280.713 67.995 274.669 67.995C267.068 67.995 261.969 62.555 261.969 54.4376C261.969 46.3203 267.006 40.9609 274.515 40.9609C282.024 40.9609 286.641 46.1936 286.641 54.3662C286.641 54.9584 286.618 55.5056 286.561 56.1911H266.81C267.362 60.8891 270.313 63.7381 274.788 63.7381C278.208 63.7381 280.517 62.0631 281.781 58.7958H286.525V58.7981ZM281.733 52.1255C281.101 47.6728 278.569 45.2201 274.541 45.2201C270.513 45.2201 267.618 47.8133 266.902 52.1255H281.733Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M295.647 62.397C295.806 62.3325 295.958 62.2484 296.101 62.1482C296.29 62.0157 296.446 61.8417 296.562 61.6275C296.678 61.4109 296.737 61.1436 296.737 60.8325C296.737 60.4512 296.656 60.1321 296.494 59.8809C296.332 59.6275 296.086 59.4374 295.762 59.3153C295.446 59.1966 295.046 59.1367 294.572 59.1367H292.93V64.9696H293.818V62.632H294.809L296.19 64.9696H297.229L295.647 62.3959V62.397ZM293.819 59.9316H294.534C294.985 59.9316 295.322 60.0042 295.531 60.1471C295.729 60.2853 295.827 60.5192 295.827 60.8625C295.827 61.2058 295.733 61.4339 295.54 61.5998C295.345 61.7669 295.028 61.8521 294.599 61.8521H293.82V59.9328L293.819 59.9316Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M294.715 67.2992C291.8 67.2992 289.43 64.9455 289.43 62.0539C289.43 59.1622 291.802 56.8086 294.715 56.8086C297.627 56.8086 300 59.1622 300 62.0539C300 64.9455 297.628 67.2992 294.715 67.2992ZM294.715 57.7901C292.346 57.7901 290.418 59.7037 290.418 62.055C290.418 64.4064 292.346 66.3188 294.715 66.3188C297.084 66.3188 299.012 64.4052 299.012 62.055C299.012 59.7049 297.084 57.7901 294.715 57.7901Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M55.9533 27.9828C56.1843 27.9828 56.3747 28.0116 56.5256 28.0669C56.6753 28.1233 56.7879 28.2097 56.8633 28.3249C56.9376 28.4413 56.9748 28.5888 56.9748 28.7673C56.9748 28.9148 56.9481 29.0381 56.8947 29.136C56.8413 29.2351 56.7705 29.3145 56.6834 29.3756C56.5964 29.4367 56.5035 29.4839 56.4048 29.5173L57.1756 30.7707H56.7949L56.1065 29.6072H55.5215V30.7707H55.1953V27.9805H55.9545L55.9533 27.9828ZM55.9336 28.2639H55.5203V29.3353H55.9661C56.1959 29.3353 56.3642 29.288 56.4733 29.1959C56.5813 29.1026 56.6358 28.9666 56.6358 28.7858C56.6358 28.5957 56.5778 28.462 56.464 28.3825C56.3491 28.3042 56.1727 28.265 55.9347 28.265L55.9336 28.2639Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M57.3014 30.8426H56.7547L56.0664 29.679H55.5928V30.8426H55.125V27.9141H55.955C56.1929 27.9141 56.3937 27.944 56.5516 28.0028C56.7164 28.065 56.8418 28.1606 56.923 28.2896C57.0043 28.4164 57.0461 28.5776 57.0461 28.77C57.0461 28.929 57.0159 29.0638 56.9567 29.1721C56.8986 29.2792 56.8197 29.3679 56.7245 29.4359C56.656 29.4832 56.5852 29.5235 56.5086 29.5557L57.3014 30.8437V30.8426ZM56.836 30.7032H57.0507L56.2985 29.482L56.3821 29.4544C56.4738 29.4232 56.562 29.3783 56.6433 29.3219C56.7211 29.2677 56.7849 29.1951 56.8336 29.1064C56.8812 29.0189 56.9056 28.906 56.9056 28.77C56.9056 28.6053 56.8719 28.4682 56.8046 28.3657C56.7396 28.2631 56.6375 28.1859 56.5017 28.1353C56.3601 28.0823 56.1755 28.0546 55.955 28.0546H55.2666V30.7055H55.4523V29.5419H56.1476L56.836 30.7055V30.7032ZM55.9689 29.4037H55.4523V28.194H55.9364C56.1917 28.194 56.3775 28.2366 56.5063 28.3242C56.641 28.4164 56.7083 28.5707 56.7083 28.7839C56.7083 28.9843 56.6456 29.141 56.5214 29.247C56.4007 29.3507 56.215 29.4037 55.9689 29.4037ZM55.5939 29.2643H55.97C56.1813 29.2643 56.3357 29.2228 56.4297 29.1421C56.5226 29.0615 56.5678 28.9451 56.5678 28.785C56.5678 28.6249 56.5214 28.5051 56.4262 28.4394C56.3241 28.3691 56.1592 28.3334 55.9364 28.3334H55.5928V29.2643H55.5939Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M56.0272 31.989C54.5762 31.989 53.3945 30.8174 53.3945 29.3785C53.3945 27.9384 54.5739 26.7656 56.0248 26.7656C57.4758 26.7656 58.6574 27.9373 58.6574 29.3762C58.6574 30.8162 57.477 31.989 56.0272 31.989ZM56.0248 27.2541C54.8455 27.2541 53.8855 28.208 53.8867 29.3785C53.8867 30.549 54.8478 31.5017 56.0272 31.5006C57.2065 31.5006 58.1664 30.5467 58.1664 29.3762C58.1664 28.2057 57.2053 27.2529 56.026 27.2541"
+                    fill="black"
+                  />
+                  <path
+                    d="M0.00232026 35.4345V67.124C0.00115949 67.6044 0.391177 67.9949 0.875217 67.9984H36.4121C36.6361 67.9995 36.8532 67.9154 37.0168 67.7645L47.35 57.585C47.7005 57.2601 48.2496 57.2751 48.5815 57.6184L57.1457 66.0157C57.6843 66.5722 58.6326 66.2104 58.6558 65.4385V35.0693C58.6698 34.5832 58.2809 34.1788 57.7899 34.1719L27.4869 34.1788C26.7081 34.1684 26.3018 35.0958 26.8404 35.6534L35.4312 44.4896C35.769 44.8399 35.7551 45.3952 35.3987 45.7281L29.9048 51.1485C29.7411 51.3017 29.5252 51.3858 29.3001 51.3847L17.9048 51.3927C17.4196 51.3916 17.0284 50.9999 17.0296 50.5183L17.0842 35.4426C17.0865 34.7444 16.5165 34.1776 15.8131 34.1788H1.26756C0.568775 34.1788 0.00232153 34.741 0 35.4345"
+                    fill="black"
+                  />
+                  <path
+                    d="M0.00390625 1.5714V26.1239C0.00390625 26.9914 0.711974 27.6942 1.58603 27.6942H15.4026C16.2755 27.6942 16.9848 26.9914 16.9848 26.1239V11.63C16.9848 10.9341 17.5524 10.3696 18.2546 10.3696L28.6435 10.3857C28.9116 10.3857 29.167 10.4975 29.3481 10.6933L38.445 19.6068C38.6249 19.8014 38.878 19.912 39.1438 19.912L45.6499 19.8418C46.351 19.8418 46.9198 19.2773 46.9198 18.5814V11.3846C46.9198 11.1426 46.8188 10.9111 46.64 10.7463L36.1374 0.233866C35.9749 0.0840996 35.7613 0 35.5396 0H1.58603C0.713135 0 0.00390625 0.702752 0.00390625 1.57025"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="about-desc-footer">BlitzScale is a pioneering fintech company specializing in Web2 to Web3 transformation and strategic integration.</div>
+            </div>
+            <div class="copyright-footer">All rights reserved © BlitzScale 2024</div>
+          </div>
+          <!-- End Of About Copyright Footer -->
+        </div>
+        <!-- End Of Footer Content Wraper -->
+      </footer>
+      <!-- End Of Footer -->
+    </container>
+    <script src="carousel.js" defer></script>
+  </body>
+</html>

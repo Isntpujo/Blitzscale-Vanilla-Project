@@ -1,0 +1,749 @@
+/* Tablet Size 480px */
+
+@media (min-width: 480px) {
+  /*------ Section Header ------*/
+
+  .menu-hamberger {
+    padding: 16px;
+  }
+
+  .menu-bar {
+    padding-top: 24px;
+    margin: 0px 24px 0px 24px;
+  }
+
+  .headline-dan-cta {
+    padding-bottom: 24px;
+    margin: 0px 24px 0px 24px;
+  }
+
+  .experience-number {
+    flex-direction: row;
+  }
+
+  .headline {
+    font-size: 100px;
+  }
+
+  .cta {
+    gap: 32px;
+  }
+
+  .cta-text {
+    font-size: 24px;
+  }
+
+  /*------ Section Expertise ------*/
+
+  .section-expertise {
+    gap: 60px;
+    margin: 100px 0px 100px 0px;
+  }
+
+  .headline-dan-desc-expertise {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .card-expertise {
+    gap: 24px;
+    margin: 0px 24px 0px 24px;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .card-1 {
+    padding: 24px;
+  }
+
+  .card-1-headline {
+    font-size: 32px;
+  }
+
+  .headline-expertise {
+    font-size: 40px;
+  }
+
+  .desc-expertise {
+    font-size: 36px;
+  }
+
+  /*------ Section About Us ------*/
+
+  .aboutus-desc-wrap {
+    padding: 32px;
+    border-radius: 32px;
+  }
+
+  .headline-aboutus {
+    font-size: 40px;
+  }
+
+  .desc-aboutus {
+    font-size: 36px;
+  }
+
+  .aboutus-content {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .aboutus-logo {
+    padding: 16px 40px;
+  }
+
+  .title-our-mission {
+    font-size: 48px;
+  }
+
+  .our-mission-desc {
+    font-size: 32px;
+  }
+
+  #aboutus-blitzscale-logo {
+    width: 380px;
+  }
+
+  /*------ Section Why Us? ------*/
+
+  .whyus-title {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .whyus-headline {
+    font-size: 40px;
+  }
+
+  .whyus-desc {
+    font-size: 36px;
+  }
+
+  .whyus-content {
+    margin: 0px 24px 0px 24px;
+    gap: 24px;
+  }
+
+  .whyus-point-pioneer {
+    padding: 24px;
+  }
+
+  .whyus-point-influent,
+  .whyus-point-transform,
+  .whyus-point-expertise {
+    font-size: 32px;
+    padding: 24px;
+  }
+
+  /*------ Section Our Team ------*/
+
+  .carousel-team {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .team-tittle {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .team-headline {
+    font-size: 40px;
+  }
+
+  .team-desc {
+    font-size: 36px;
+  }
+
+  /*------ Section Our Partner ------*/
+
+  .partner-headline {
+    font-size: 40px;
+  }
+
+  .partner-desc {
+    font-size: 36px;
+  }
+
+  .logo-partner {
+    margin: 0px 24px 0px 24px;
+  }
+
+  /*------ Section FAQ ------*/
+
+  .faq-desc {
+    margin: 0px 24px 0px 24px;
+  }
+
+  .faq-content {
+    margin: 0px 24px 0px 24px;
+    gap: 24px;
+  }
+
+  .faq-point-what,
+  .faq-point-where {
+    font-size: 32px;
+    padding: 32px;
+  }
+
+  /*------ Section CTA ------*/
+
+  .headline-cta-blitzscale {
+    font-size: 32px;
+  }
+
+  .cta-content-wrap {
+    padding: 0px 24px 0px 24px;
+  }
+
+  /*------ Section Footer ------*/
+
+  .section-footer {
+    padding: 200px 0px;
+  }
+
+  .footer-content-wraper {
+    margin: 0px 24px;
+  }
+
+}
+
+/* Laptop Size Small 769px */
+
+@media (min-width: 769px) {
+  /*------ Section Header ------*/
+
+  .menu-hamberger {
+    padding: 16px;
+  }
+
+  .menu-bar {
+    padding-top: 32px;
+    margin: 0px 32px 0px 32px;
+  }
+
+  .headline-dan-cta {
+    padding-bottom: 32px;
+    margin: 0px 32px 0px 32px;
+  }
+
+  .experience-number {
+    flex-direction: row;
+  }
+
+  .headline {
+    font-size: 64px;
+  }
+
+  .cta {
+    gap: 32px;
+  }
+
+  .cta-text {
+    font-size: 24px;
+  }
+
+  /*------ Section Expertise ------*/
+
+  .section-expertise {
+    gap: 60px;
+    margin: 100px 0px 100px 0px;
+  }
+
+  .headline-dan-desc-expertise {
+    margin: 0px 32px 0px 32px;
+  }
+
+  .card-expertise {
+    gap: 32px;
+    margin: 0px 32px 0px 32px;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .card-1 {
+    padding: 32px;
+  }
+
+  .card-1-headline {
+    font-size: 40px;
+  }
+
+  .headline-expertise {
+    font-size: 56px;
+  }
+
+  .desc-expertise {
+    font-size: 36px;
+  }
+
+  /*------ Section About Us ------*/
+
+  .aboutus-desc-wrap {
+    padding: 48px;
+    border-radius: 64px;
+  }
+
+  .headline-aboutus {
+    font-size: 56px;
+  }
+
+  .desc-aboutus {
+    font-size: 36px;
+  }
+
+  .aboutus-content {
+    margin: 0px 32px 0px 32px;
+  }
+
+  /*------ Section Why Us? ------*/
+
+  .whyus-title {
+    margin: 0px 32px 0px 32px;
+  }
+
+  .whyus-content {
+    margin: 0px 32px 0px 32px;
+    gap: 32px;
+  }
+
+  .whyus-point-pioneer {
+    padding: 32px;
+  }
+
+  .whyus-headline {
+    font-size: 56px;
+  }
+
+  .whyus-point-influent,
+  .whyus-point-transform,
+  .whyus-point-expertise {
+    padding: 32px;
+  }
+
+  /*------ Section Our Team ------*/
+
+  .carousel-team {
+    margin: 0px 32px 0px 32px;
+    gap: 32px;
+  }
+
+  .team-tittle {
+    margin: 0px 32px 0px 32px;
+  }
+
+  .team-headline {
+    font-size: 56px;
+  }
+
+  /*------ Section Our Partner ------*/
+
+  .section-partner {
+    border-radius: 64px;
+    padding: 48px 0px;
+  }
+
+  .partner-tittle {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .partner-headline {
+    font-size: 56px;
+  }
+
+  .partner-desc {
+    font-size: 36px;
+  }
+
+  .logo-partner {
+    margin: 0px 32px 0px 32px;
+  }
+
+  /*------ Section FAQ ------*/
+
+  .faq-desc {
+    margin: 0px 32px 0px 32px;
+  }
+
+  .faq-headline {
+    font-size: 56px;
+  }
+
+  .faq-content {
+    margin: 0px 32px 0px 32px;
+    gap: 32px;
+  }
+
+  .faq-point-how {
+    padding: 32px;
+  }
+
+  /*------ Section CTA ------*/
+
+  .cta-content {
+    gap: 32px;
+  }
+
+  .cta-content-wrap {
+    padding: 0px 32px 0px 32px;
+  }
+
+  /*------ Section Footer ------*/
+
+  .footer-content-wraper {
+      margin: 0px 32px;
+  }
+
+}
+
+/* Laptop Size Medium 1025px */
+
+@media (min-width: 1025px) {
+  /*------ Section Header ------*/
+
+  .menu-hamberger {
+    display: none;
+    padding: 16px;
+  }
+
+  .menu-bar {
+    padding-top: 48px;
+    margin: 0px 48px 0px 48px;
+  }
+
+  .menu-list {
+    display: flex;
+  }
+
+  .headline-dan-cta {
+    padding-bottom: 48px;
+    margin: 0px 48px 0px 48px;
+  }
+
+  .headline {
+    font-size: 80px;
+  }
+
+  /*------ Section Expertise ------*/
+
+  .section-expertise {
+    gap: 120px;
+    margin: 200px 0px 200px 0px;
+  }
+
+  .headline-dan-desc-expertise {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .card-expertise {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .card {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+
+  .card-1 {
+    padding: 32px;
+  }
+
+  .card-1-headline {
+    font-size: 40px;
+  }
+
+  .headline-expertise {
+    font-size: 64px;
+  }
+
+  .desc-expertise {
+    font-size: 36px;
+  }
+
+  /*------ Section About Us ------*/
+
+  .section-aboutus {
+    padding: 200px 0px;
+  }
+
+  .aboutus-desc-wrap {
+    padding: 60px;
+    border-radius: 64px;
+  }
+
+  .headline-aboutus {
+    font-size: 64px;
+  }
+
+  .desc-aboutus {
+    font-size: 36px;
+  }
+
+  .aboutus-content {
+    align-items: start;
+    flex-direction: row;
+    margin: 0px 48px 0px 48px;
+    gap: 0px;
+  }
+
+  .aboutus-logo {
+    position: sticky;
+    top: 60px;
+  }
+
+  /*------ Section Why Us? ------*/
+
+  .section-whyus {
+    padding: 200px 0px;
+  }
+
+  .whyus-title {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .whyus-content {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .whyus-headline {
+    font-size: 64px;
+  }
+
+  /*------ Section Our Team ------*/
+
+  .carousel-team {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .team-tittle {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .team-headline {
+    font-size: 64px;
+  }
+
+  .section-team {
+    padding: 200px 0px;
+  }
+
+  /*------ Section Our Partner ------*/
+
+  .section-partner {
+    padding: 60px 0px;
+  }
+
+  .partner-tittle {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .partner-headline {
+    font-size: 64px;
+  }
+
+  .partner-desc {
+    font-size: 36px;
+  }
+
+  .logo-partner {
+    margin: 0px 48px 0px 48px;
+  }
+
+  /*------ Section FAQ ------*/
+
+  .faq-desc {
+    margin: 0px 48px 0px 48px;
+  }
+
+  .faq-headline {
+    font-size: 64px;
+  }
+
+  .faq-content {
+    margin: 0px 48px 0px 48px;
+  }
+
+  /*------ Section CTA ------*/
+
+  .cta-content-wrap {
+    padding: 0px 48px 0px 48px;
+  }
+
+  /*------ Section Footer ------*/
+
+  .footer-content-wraper {
+    margin: 0px 48px;
+  }
+
+}
+
+/* Desktop Size 1367px */
+
+@media (min-width: 1367px) {
+  /*------ Section Header ------*/
+
+  .menu-bar {
+    padding-top: 60px;
+    margin: 0px 60px 0px 60px;
+  }
+
+  .menu-list {
+    gap: 0px;
+  }
+
+  .menu-list li {
+    padding: 20px 16px 20px 16px;
+  }
+
+  .headline-dan-cta {
+    padding-bottom: 60px;
+    margin: 0px 60px 0px 60px;
+    gap: 16px;
+  }
+
+  .headline {
+    font-size: 100px;
+  }
+
+  /*------ Section Expertise ------*/
+
+  .section-expertise {
+    gap: 120px;
+    margin: 200px 0px 200px 0px;
+  }
+
+  .headline-dan-desc-expertise {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .card-expertise {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .card {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+
+  .card-1 {
+    padding: 32px;
+  }
+
+  .card-1-headline {
+    font-size: 40px;
+  }
+
+  .headline-expertise {
+    font-size: 76px;
+  }
+
+  .desc-expertise {
+    font-size: 36px;
+  }
+
+  /*------ Section About Us ------*/
+
+  .aboutus-desc-wrap {
+    padding: 60px;
+    border-radius: 64px;
+  }
+
+  .headline-aboutus {
+    font-size: 76px;
+  }
+
+  .desc-aboutus {
+    font-size: 36px;
+  }
+
+  .aboutus-content-wrap {
+    justify-content: center;
+  }
+
+  .aboutus-content {
+    align-items: start;
+    flex-direction: row;
+    margin: 0px 60px 0px 60px;
+    width: 100%;
+    max-width: 1440px;
+  }
+
+  .aboutus-logo {
+    position: sticky;
+    top: 60px;
+  }
+
+  /*------ Section Why Us? ------*/
+
+  .whyus-title {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .whyus-content {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .whyus-headline {
+    font-size: 76px;
+  }
+
+  /*------ Section Our Team ------*/
+
+  .carousel-team {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .team-tittle {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .team-headline {
+    font-size: 76px;
+  }
+
+  /*------ Section Our Partner ------*/
+
+  .partner-headline {
+    font-size: 74px;
+  }
+
+  .logo-partner {
+    margin: 0px 60px 0px 60px;
+  }
+
+  /*------ Section FAQ ------*/
+
+  .faq-desc {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .faq-headline {
+    font-size: 76px;
+  }
+
+  .faq-point-how-headline {
+    line-height: 180%;
+  }
+
+  .faq-content {
+    margin: 0px 60px 0px 60px;
+  }
+
+  /*------ Section CTA ------*/
+
+  .headline-cta-blitzscale {
+    font-size: 42px;
+  }
+
+  .cta-content-wrap {
+    padding: 0px 60px 0px 60px;
+  }
+
+  /*------ Section Footer ------*/
+
+  .footer-content-wraper {
+    margin: 0px 60px;
+  }
+
+}
