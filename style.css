@@ -622,6 +622,7 @@ body {
 .logo-partner-wrap {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .logo-partner {
