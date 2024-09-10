@@ -54,10 +54,6 @@
     gap: 24px;
   }
 
-  .card-1 {
-    padding: 24px;
-  }
-
   .card-1-headline {
     font-size: 32px;
   }
@@ -124,15 +120,10 @@
     gap: 24px;
   }
 
-  .whyus-point-pioneer {
-    padding: 24px;
-  }
-
   .whyus-point-influent,
   .whyus-point-transform,
   .whyus-point-expertise {
     font-size: 32px;
-    padding: 24px;
   }
 
   /*------ Section Our Team ------*/
@@ -163,9 +154,13 @@
     font-size: 36px;
   }
 
-  .logo-partner {
-    margin: 0px 24px 0px 24px;
-  }
+  .svg-logo-partner-1,
+.svg-logo-partner-2,
+.svg-logo-partner-3,
+.svg-logo-partner-4,
+.svg-logo-partner-5 {
+  width: 80px;
+}
 
   /*------ Section FAQ ------*/
 
@@ -195,10 +190,6 @@
   }
 
   /*------ Section Footer ------*/
-
-  .section-footer {
-    padding: 200px 0px;
-  }
 
   .footer-content-wraper {
     margin: 0px 24px;
@@ -341,7 +332,6 @@
 
   .section-partner {
     border-radius: 64px;
-    padding: 48px 0px;
   }
 
   .partner-tittle {
@@ -359,6 +349,14 @@
   .logo-partner {
     margin: 0px 32px 0px 32px;
   }
+
+  .svg-logo-partner-1,
+.svg-logo-partner-2,
+.svg-logo-partner-3,
+.svg-logo-partner-4,
+.svg-logo-partner-5 {
+  width: 100px;
+}
 
   /*------ Section FAQ ------*/
 
@@ -531,7 +529,9 @@
   /*------ Section Our Partner ------*/
 
   .section-partner {
-    padding: 60px 0px;
+    padding: 100px 0px;
+    gap: 100px;
+    margin: 200px 0px;
   }
 
   .partner-tittle {
@@ -552,6 +552,10 @@
 
   /*------ Section FAQ ------*/
 
+  .section-faq {
+    padding: 200px 0px;
+  }
+
   .faq-desc {
     margin: 0px 48px 0px 48px;
   }
@@ -566,14 +570,23 @@
 
   /*------ Section CTA ------*/
 
+  .section-cta {
+    padding: 200px 0px;
+  }
+
   .cta-content-wrap {
     padding: 0px 48px 0px 48px;
   }
 
   /*------ Section Footer ------*/
 
+  .section-footer {
+    padding: 200px 0px;
+  }
+
   .footer-content-wraper {
     margin: 0px 48px;
+    gap: 200px;
   }
 
 }
@@ -645,7 +658,7 @@
   /*------ Section About Us ------*/
 
   .aboutus-desc-wrap {
-    padding: 60px;
+    padding: 100px;
     border-radius: 64px;
   }
 
