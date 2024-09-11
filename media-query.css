@@ -155,12 +155,12 @@
   }
 
   .svg-logo-partner-1,
-.svg-logo-partner-2,
-.svg-logo-partner-3,
-.svg-logo-partner-4,
-.svg-logo-partner-5 {
-  width: 80px;
-}
+  .svg-logo-partner-2,
+  .svg-logo-partner-3,
+  .svg-logo-partner-4,
+  .svg-logo-partner-5 {
+    width: 80px;
+  }
 
   /*------ Section FAQ ------*/
 
@@ -193,6 +193,12 @@
 
   .footer-content-wraper {
     margin: 0px 24px;
+  }
+
+  /*------ Section Button Back To Top ------*/
+
+  .back-to-top {
+    margin: 24px;
   }
 
 }
@@ -351,12 +357,12 @@
   }
 
   .svg-logo-partner-1,
-.svg-logo-partner-2,
-.svg-logo-partner-3,
-.svg-logo-partner-4,
-.svg-logo-partner-5 {
-  width: 100px;
-}
+  .svg-logo-partner-2,
+  .svg-logo-partner-3,
+  .svg-logo-partner-4,
+  .svg-logo-partner-5 {
+    width: 100px;
+  }
 
   /*------ Section FAQ ------*/
 
@@ -390,7 +396,13 @@
   /*------ Section Footer ------*/
 
   .footer-content-wraper {
-      margin: 0px 32px;
+    margin: 0px 32px;
+  }
+
+  /*------ Section Button Back To Top ------*/
+
+  .back-to-top {
+    margin: 32px;
   }
 
 }
@@ -589,6 +601,12 @@
     gap: 200px;
   }
 
+  /*------ Section Button Back To Top ------*/
+
+  .back-to-top {
+    margin: 48px;
+  }
+
 }
 
 /* Desktop Size 1367px */
@@ -757,6 +775,12 @@
 
   .footer-content-wraper {
     margin: 0px 60px;
+  }
+
+  /*------ Section Button Back To Top ------*/
+
+  .back-to-top {
+    margin: 60px;
   }
 
 }
