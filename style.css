@@ -26,10 +26,12 @@ body {
 
 .menu-bar-sticky {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100%;
-  position: fixed;
-  z-index: 1;
+  gap: 16px;
+  margin: 0px 16px;
 }
 
 .menu-bar {
@@ -38,7 +40,6 @@ body {
   width: 100%;
   max-width: 1440px;
   padding-top: 16px;
-  margin: 0px 16px;
 }
 
 .nav-bar {
@@ -51,6 +52,77 @@ body {
   border: solid 2px #fff;
   backdrop-filter: blur(24px);
   width: 100%;
+}
+
+.menu-dan-dropdown {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/*------ Section Dropdown Menu ------*/
+
+.dropdown-menu {
+  display: flex;
+  width: 100%;
+}
+
+.dropdown-menu-wraper {
+  display: flex;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: flex;
+  background-color: rgba(255, 255, 255, 50%);
+  align-items: center;
+  border-radius: 16px;
+  border: solid 2px #fff;
+  backdrop-filter: blur(24px);
+  width: 100%;
+}
+
+.dropdown-content.hide {
+  display: none;
+}
+
+.menu-list-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-list-wraper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-menu-list-wrap .link-to {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.garing-menu {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-menu-list-wrap {
+  display: flex;
+  border-radius: 16px;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-menu-list-wrap:hover {
+  color: #fff;
+  background-color: #ff4306;
 }
 
 /*------ Section Header ------*/
@@ -92,7 +164,8 @@ body {
   line-height: 140%;
 }
 
-.menu-hamberger {
+.menu-hamburger {
+  cursor: pointer;
   padding: 8px;
 }
 
@@ -866,14 +939,15 @@ span {
   backdrop-filter: blur(24px);
   transition: all 350ms ease;
   border-radius: 50%;
-  cursor: default;
-  opacity: 0;
 }
 
 #btn-back-to-top.active {
   display: flex;
-  opacity: 1;
   cursor: pointer;
+}
+
+#btn-back-to-top:hover {
+  background-image: linear-gradient(rgba(255, 67, 6, 0), rgba(255, 67, 6, 100));
 }
 
 #icon-arrow-up {

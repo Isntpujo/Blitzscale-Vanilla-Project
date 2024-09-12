@@ -7,9 +7,12 @@
     padding: 16px;
   }
 
+  .menu-bar-sticky {
+    margin: 0px 24px;
+  }
+
   .menu-bar {
     padding-top: 24px;
-    margin: 0px 24px 0px 24px;
   }
 
   .headline-dan-cta {
@@ -212,9 +215,12 @@
     padding: 16px;
   }
 
+  .menu-bar-sticky {
+    margin: 0px 32px 0px 32px;
+  }
+
   .menu-bar {
     padding-top: 32px;
-    margin: 0px 32px 0px 32px;
   }
 
   .headline-dan-cta {
@@ -412,14 +418,21 @@
 @media (min-width: 1025px) {
   /*------ Section Header ------*/
 
-  .menu-hamberger {
+  .dropdown-menu-wraper {
+    display: none;
+  }
+
+  .menu-hamburger {
     display: none;
     padding: 16px;
   }
 
+  .menu-bar-sticky {
+    margin: 0px 48px;
+  }
+
   .menu-bar {
     padding-top: 48px;
-    margin: 0px 48px 0px 48px;
   }
 
   .menu-list {
@@ -614,9 +627,12 @@
 @media (min-width: 1367px) {
   /*------ Section Header ------*/
 
+  .menu-bar-sticky {
+    margin: 0px 60px 0px 60px;
+  }
+
   .menu-bar {
     padding-top: 60px;
-    margin: 0px 60px 0px 60px;
   }
 
   .menu-list {

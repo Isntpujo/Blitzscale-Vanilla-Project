@@ -1,6 +1,4 @@
 const toTop = document.querySelector("#btn-back-to-top");
-const goUp = document.querySelector(".back-to-top")
-
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 1500) {
@@ -10,7 +8,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-goUp.addEventListener("click", () => {
+toTop.addEventListener("click", () => {
     window.scrollTo({
         top: 0
     })
