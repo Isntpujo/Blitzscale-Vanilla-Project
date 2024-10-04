@@ -3,7 +3,7 @@ const menuExpand = document.querySelector(".dropdown-content")
 
 btnMenu.addEventListener("click", () => {
     menuExpand.classList.toggle("hide");
-    console.log(btnMenu)
+    //console.log(btnMenu)
 })
 
 document.addEventListener("click", e => {
