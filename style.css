@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: #efefef;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -133,7 +133,11 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100dvh;
-  background-image: linear-gradient(rgba(239, 239, 239, 60%), rgba(239, 239, 239, 100)), url(/Photos/background-line.png);
+  background-image: linear-gradient(
+      rgba(239, 239, 239, 60%),
+      rgba(239, 239, 239, 100)
+    ),
+    url(/Photos/background-line.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -263,7 +267,7 @@ body {
   border-style: none;
   background-color: #ff4306;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*------ Section Expertise ------*/
@@ -332,7 +336,13 @@ body {
   height: 300px;
   min-width: 200px;
   width: 100%;
-  background-image: linear-gradient(135deg, rgba(76, 86, 95, 100), rgba(76, 86, 95, 0)), url(/Photos/background-line-card.png), linear-gradient(135deg, rgba(76, 86, 95, 100), rgba(22, 22, 22, 100));
+  background-image: linear-gradient(
+      135deg,
+      rgba(76, 86, 95, 100),
+      rgba(76, 86, 95, 0)
+    ),
+    url(/Photos/background-line-card.png),
+    linear-gradient(135deg, rgba(76, 86, 95, 100), rgba(22, 22, 22, 100));
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -361,7 +371,7 @@ body {
   border-style: none;
   background-color: #ff4306;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*------ Section About Us ------*/
@@ -381,7 +391,12 @@ body {
   padding: 32px;
   border-radius: 32px;
   gap: 16px;
-  background-image: radial-gradient(rgba(255, 255, 255, 60%), rgba(255, 255, 255, 90%), rgba(255, 255, 255, 100)), url(/Photos/background-line.png);
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 60%),
+      rgba(255, 255, 255, 90%),
+      rgba(255, 255, 255, 100)
+    ),
+    url(/Photos/background-line.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -515,7 +530,11 @@ body {
   padding: 24px;
   gap: 16px;
   border-radius: 16px;
-  background-image: linear-gradient(135deg, rgba(76, 86, 95, 100), rgba(22, 22, 22, 100));
+  background-image: linear-gradient(
+    135deg,
+    rgba(76, 86, 95, 100),
+    rgba(22, 22, 22, 100)
+  );
 }
 
 .whyus-point-pioneer-headline {
@@ -605,7 +624,8 @@ body {
   min-width: 335px;
   height: 415px;
   border-radius: 16px;
-  background-image: linear-gradient(rgba(255, 67, 6, 0), rgba(255, 67, 6, 100)), url(/Photos/person-dummy.png);
+  background-image: linear-gradient(rgba(255, 67, 6, 0), rgba(255, 67, 6, 100)),
+    url(/Photos/person-dummy.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -670,7 +690,12 @@ body {
   padding: 60px 0px;
   margin: 100px 0px;
   border-radius: 32px;
-  background-image: radial-gradient(rgba(255, 255, 255, 60%), rgba(255, 255, 255, 90%), rgba(255, 255, 255, 100)), url(/Photos/background-line.png);
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 60%),
+      rgba(255, 255, 255, 90%),
+      rgba(255, 255, 255, 100)
+    ),
+    url(/Photos/background-line.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -772,7 +797,11 @@ body {
   padding: 24px;
   gap: 16px;
   border-radius: 16px;
-  background-image: linear-gradient(135deg, rgba(76, 86, 95, 100), rgba(22, 22, 22, 100));
+  background-image: linear-gradient(
+    135deg,
+    rgba(76, 86, 95, 100),
+    rgba(22, 22, 22, 100)
+  );
 }
 
 .faq-point-how-headline {
@@ -819,6 +848,13 @@ body {
   max-width: 1440px;
 }
 
+.work-together {
+  display: flex;
+  gap: 18px;
+  width: 100%;
+  max-width: 1440px;
+}
+
 .headline-cta-blitzscale {
   font-size: 24px;
   line-height: 120%;
@@ -833,7 +869,7 @@ body {
   border-style: none;
   background-color: #ff4306;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*------ Section Footer ------*/
@@ -841,7 +877,12 @@ body {
 .section-footer {
   display: flex;
   padding: 100px 0px;
-  background-image: linear-gradient(rgba(239, 239, 239, 100), rgba(239, 239, 239, 95%), rgba(239, 239, 239, 80%)), url(/Photos/background-line.png);
+  background-image: linear-gradient(
+      rgba(239, 239, 239, 100),
+      rgba(239, 239, 239, 95%),
+      rgba(239, 239, 239, 80%)
+    ),
+    url(/Photos/background-line.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
