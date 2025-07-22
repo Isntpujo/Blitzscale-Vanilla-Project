@@ -8,10 +8,13 @@
   <link rel="icon" type="image/x-icon" href="Logo/Logo Mark Blitzscale White.svg" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="media-query.css" />
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
+  <link rel="stylesheet" href="carousel.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
   <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="carousel.js" defer></script>
   <script src="button-scroll.js" defer></script>
   <script src="dropdown-menu.js" defer></script>
@@ -290,44 +293,72 @@
             success.</div>
         </div>
       </div>
-      <div class="carousel-team-wrap sal-scroll">
-        <div class="carousel-team">
-          <div class="carousel-person">
-            <div class="detail-person">
-              <div class="profile-person">
-                <div class="name-wrap">
-                  <div class="position-person">Fullstack Dev</div>
-                  <div class="name-person">Jose</div>
+      <div class="swiper mySwiper sal-scroll">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="carousel-person">
+              <div class="detail-person">
+                <div class="profile-person">
+                  <div class="name-wrap">
+                    <div class="position-person">Fullstack Dev</div>
+                    <div class="name-person">Jose</div>
+                  </div>
+                  <div class="icon-linkedin">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.39459 6.30803C2.66797 7.73411 2.66797 9.60095 2.66797 13.3346V18.668C2.66797 22.4017 2.66797 24.2685 3.39459 25.6946C4.03375 26.949 5.05362 27.9689 6.30803 28.608C7.73411 29.3346 9.60095 29.3346 13.3346 29.3346H18.668C22.4017 29.3346 24.2685 29.3346 25.6946 28.608C26.949 27.9689 27.9689 26.949 28.608 25.6946C29.3346 24.2685 29.3346 22.4017 29.3346 18.668V13.3346C29.3346 9.60095 29.3346 7.73411 28.608 6.30803C27.9689 5.05362 26.949 4.03375 25.6946 3.39459C24.2685 2.66797 22.4017 2.66797 18.668 2.66797H13.3346C9.60095 2.66797 7.73411 2.66797 6.30803 3.39459C5.05362 4.03375 4.03375 5.05362 3.39459 6.30803ZM7.40606 24.8902H11.0918V13.0209H7.40606V24.8902ZM7.11241 9.24698C7.11241 10.4256 8.06837 11.4018 9.24694 11.4018C10.4251 11.4018 11.3815 10.4256 11.3815 9.24698C11.3815 8.68086 11.1566 8.13792 10.7563 7.73761C10.356 7.3373 9.81305 7.11241 9.24694 7.11241C8.68083 7.11241 8.1379 7.3373 7.7376 7.73761C7.3373 8.13792 7.11241 8.68086 7.11241 9.24698ZM21.2084 24.8902H24.8902V18.3702C24.8902 15.1797 24.2045 12.7233 20.4743 12.7233C18.6811 12.7233 17.4791 13.7074 16.987 14.64H16.9354V13.0209H13.4005V24.8902H17.0823V19.0131C17.0823 17.4654 17.3759 15.9694 19.2922 15.9694C21.1807 15.9694 21.2084 17.7353 21.2084 19.1123V24.8902Z"
+                        fill="white" />
+                    </svg>
+                  </div>
                 </div>
-                <div class="icon-linkedin">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M3.39459 6.30803C2.66797 7.73411 2.66797 9.60095 2.66797 13.3346V18.668C2.66797 22.4017 2.66797 24.2685 3.39459 25.6946C4.03375 26.949 5.05362 27.9689 6.30803 28.608C7.73411 29.3346 9.60095 29.3346 13.3346 29.3346H18.668C22.4017 29.3346 24.2685 29.3346 25.6946 28.608C26.949 27.9689 27.9689 26.949 28.608 25.6946C29.3346 24.2685 29.3346 22.4017 29.3346 18.668V13.3346C29.3346 9.60095 29.3346 7.73411 28.608 6.30803C27.9689 5.05362 26.949 4.03375 25.6946 3.39459C24.2685 2.66797 22.4017 2.66797 18.668 2.66797H13.3346C9.60095 2.66797 7.73411 2.66797 6.30803 3.39459C5.05362 4.03375 4.03375 5.05362 3.39459 6.30803ZM7.40606 24.8902H11.0918V13.0209H7.40606V24.8902ZM7.11241 9.24698C7.11241 10.4256 8.06837 11.4018 9.24694 11.4018C10.4251 11.4018 11.3815 10.4256 11.3815 9.24698C11.3815 8.68086 11.1566 8.13792 10.7563 7.73761C10.356 7.3373 9.81305 7.11241 9.24694 7.11241C8.68083 7.11241 8.1379 7.3373 7.7376 7.73761C7.3373 8.13792 7.11241 8.68086 7.11241 9.24698ZM21.2084 24.8902H24.8902V18.3702C24.8902 15.1797 24.2045 12.7233 20.4743 12.7233C18.6811 12.7233 17.4791 13.7074 16.987 14.64H16.9354V13.0209H13.4005V24.8902H17.0823V19.0131C17.0823 17.4654 17.3759 15.9694 19.2922 15.9694C21.1807 15.9694 21.2084 17.7353 21.2084 19.1123V24.8902Z"
-                      fill="white" />
-                  </svg>
+                <div class="desc-person">
+                  Extensive network in the Philippines and Southeast Asia, experience as a managing director for
+                  financial
+                  institutions specialized in the acquisition of distressed assets and distressed asset rehabilitation
+                  projects.
                 </div>
               </div>
-              <div class="desc-person">
-                Extensive network in the Philippines and Southeast Asia, experience as a managing director for financial
-                institutions specialized in the acquisition of distressed assets and distressed asset rehabilitation
-                projects.
-              </div>
+              <!-- End Of Detail Person -->
             </div>
-            <!-- End Of Detail Person -->
+            <!-- End Of Carousel Person -->
           </div>
-          <!-- End Of Carousel Person -->
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
-          <div class="carousel-person-blank"></div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="carousel-person-blank"></div>
+          </div>
         </div>
-        <!-- End Of Carousel Team -->
+        <div class="swiper-pagination"></div>
       </div>
+
       <!-- End Of Carousel Team Wrap -->
     </div>
     <!-- End Of Section Team -->

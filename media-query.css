@@ -203,7 +203,6 @@
   .back-to-top {
     margin: 24px;
   }
-
 }
 
 /* Laptop Size Small 769px */
@@ -411,6 +410,10 @@
     margin: 32px;
   }
 
+  .swiper-wrapper {
+    gap: 32px !important;
+    padding-inline: 32px !important;
+  }
 }
 
 /* Laptop Size Medium 1025px */
@@ -619,7 +622,6 @@
   .back-to-top {
     margin: 48px;
   }
-
 }
 
 /* Desktop Size 1367px */
@@ -798,5 +800,4 @@
   .back-to-top {
     margin: 60px;
   }
-
 }
