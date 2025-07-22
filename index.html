@@ -8,11 +8,15 @@
   <link rel="icon" type="image/x-icon" href="Logo/Logo Mark Blitzscale White.svg" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="media-query.css" />
-  <!-- CSS SAL -->
-  <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
+  <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css">
+  <script src="carousel.js" defer></script>
+  <script src="button-scroll.js" defer></script>
+  <script src="dropdown-menu.js" defer></script>
+  <script src="https://unpkg.com/sal.js/dist/sal.js" defer></script>
+  <script src="scroll.js" defer></script>
 </head>
 
 <body>
@@ -21,8 +25,7 @@
       <div class="menu-bar-wrap">
         <div class="menu-dan-dropdown">
           <div class="menu-bar-sticky">
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="menu-bar">
+            <div class="menu-bar sal-scroll">
               <nav class="nav-bar">
                 <svg class="logo-blitzscale" width="126" height="20" viewBox="0 0 126 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -114,8 +117,7 @@
       </div>
       <div class="headline-dan-cta-wrap">
         <div class="headline-dan-cta">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="experience-number">
+          <div class="experience-number sal-scroll">
             <div class="member">
               <div>Members</div>
               <div class="num"><b>20+</b></div>
@@ -129,10 +131,9 @@
               <div class="num"><b>25+</b></div>
             </div>
           </div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="headline">Innovative Technology
+          <div class="headline sal-scroll">Innovative Technology
             Consultancy.</div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true" class="cta">
+          <div class="cta sal-scroll">
             <div class="cta-text">From Concept to Launch.</div>
             <div class="cta-button">
               <button id="cta-button-click">Contact Us!</button>
@@ -146,8 +147,7 @@
     <!-- End Of Section Header -->
     <div class="section-expertise">
       <div class="headline-dan-desc-expertise-wraper">
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-          class="headline-dan-desc-expertise">
+        <div class="headline-dan-desc-expertise sal-scroll">
           <div class="headline-expertise">Our Expertise</div>
           <div class="desc-expertise">Our expertise spans across various facets of blockchain technology, each tailored
             to meet the unique needs of different industries and projects.</div>
@@ -158,35 +158,29 @@
       <div class="card-expertise-wraper">
         <div class="card-expertise">
           <div class="card">
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/lightning.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Real World Asset Tokenization</div>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/blitzscale.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Company Formation</div>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/dollar.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Legal Consultancy</div>
             </div>
           </div>
           <div class="card">
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/wallet.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Custodial, Semi-Custodial, and Non-Custodial Wallet Platforms</div>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/stats.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Government Services</div>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="card-1">
+            <div class="card-1 sal-scroll">
               <div class="card-icon"><img src="/Icon/bitcoin.png" alt="Image Arrow" /></div>
               <div class="card-1-headline">Integrating Traditional Business into Blockchain Tech</div>
             </div>
@@ -205,10 +199,8 @@
     <div class="section-aboutus">
       <div class="aboutus-desc-wrap">
         <div class="aboutus-desc">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="headline-aboutus">About Us</div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="desc-aboutus">
+          <div class="headline-aboutus sal-scroll">About Us</div>
+          <div class="desc-aboutus sal-scroll">
             BlitzScale is a pioneering consultancy company specializing in Web2 to Web3 transformation and strategic
             integration.Based in the Philippines' Freeport Area of Bataan (FAB), BlitzScale leverages cutting-edge
             technology to
@@ -220,8 +212,7 @@
       <!-- End Of Aboutus Desc Wrap -->
       <div class="aboutus-content-wrap">
         <div class="aboutus-content">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="aboutus-logo"><img id="aboutus-blitzscale-logo" src="/Logo/blitzscale-chrome.png"
+          <div class="aboutus-logo sal-scroll"><img id="aboutus-blitzscale-logo" src="/Logo/blitzscale-chrome.png"
               alt="Logo Blitzscale" /></div>
           <div class="aboutus-desc-accordion-wrap">
             <div class="our-vision">
@@ -268,8 +259,7 @@
     <!-- End Of Section Aboutus -->
     <div class="section-whyus">
       <div class="whyus-title-wrap">
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-          class="whyus-title">
+        <div class="whyus-title sal-scroll">
           <div class="whyus-headline">Why Us?</div>
           <div class="whyus-desc">Discover why our innovative solutions set us apart.</div>
         </div>
@@ -278,18 +268,14 @@
       <!-- End Of Whyus Title Wrap -->
       <div class="whyus-content-wrap">
         <div class="whyus-content">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="whyus-point-pioneer">
+          <div class="whyus-point-pioneer sal-scroll">
             <div class="whyus-point-pioneer-headline">Pioneers in The Field</div>
             <div class="whyus-point-pioneer-desc">We are the first tech consultancy company in the Freeport area of
               Bataan, supporting blockchain technology and fostering business growth with innovative solutions.</div>
           </div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="whyus-point-influent">Influential Leadership</div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="whyus-point-transform">Web2 to Web3 Transformation</div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="whyus-point-expertise">Conprehensive Expertise</div>
+          <div class="whyus-point-influent sal-scroll">Influential Leadership</div>
+          <div class="whyus-point-transform sal-scroll">Web2 to Web3 Transformation</div>
+          <div class="whyus-point-expertise sal-scroll">Conprehensive Expertise</div>
         </div>
         <!-- End Of Whyus Content -->
       </div>
@@ -298,17 +284,15 @@
     <!-- End Of Section Whyus -->
     <div class="section-team">
       <div class="team-tittle-wrap">
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-          class="team-tittle">
+        <div class="team-tittle sal-scroll">
           <div class="team-headline">Our Team</div>
           <div class="team-desc">Meet the seasoned professionals behind BlitzScale who are dedicated to support your
             success.</div>
         </div>
       </div>
-      <div class="carousel-team-wrap">
+      <div class="carousel-team-wrap sal-scroll">
         <div class="carousel-team">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="carousel-person">
+          <div class="carousel-person">
             <div class="detail-person">
               <div class="profile-person">
                 <div class="name-wrap">
@@ -332,15 +316,15 @@
             <!-- End Of Detail Person -->
           </div>
           <!-- End Of Carousel Person -->
-          <div data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="400" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
-          <div data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
+          <div class="carousel-person-blank"></div>
         </div>
         <!-- End Of Carousel Team -->
       </div>
@@ -348,8 +332,7 @@
     </div>
     <!-- End Of Section Team -->
     <div class="section-partner">
-      <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-        class="partner-tittle-wrap">
+      <div class="partner-tittle-wrap sal-scroll">
         <div class="partner-tittle">
           <div class="partner-headline">Our Partner</div>
           <div class="partner-desc">Discover who supporting us.</div>
@@ -359,16 +342,11 @@
       <!-- End Of Partner Tittle Wrap -->
       <div class="logo-partner-wrap">
         <div class="logo-partner">
-          <img data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="svg-logo-partner-1" src="Icon/Partner-1.svg" alt="Partner 1">
-          <img data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000" data-sal-repeat="true"
-            class="svg-logo-partner-2" src="Icon/Partner-2.svg" alt="Partner 2">
-          <img data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-repeat="true"
-            class="svg-logo-partner-3" src="Icon/Partner-3.svg" alt="Partner 3">
-          <img data-sal="slide-up" data-sal-delay="400" data-sal-duration="1000" data-sal-repeat="true"
-            class="svg-logo-partner-4" src="Icon/Partner-4.svg" alt="Partner 4">
-          <img data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" data-sal-repeat="true"
-            class="svg-logo-partner-5" src="Icon/Partner-5.svg" alt="Partner 5">
+          <img class="svg-logo-partner-1 sal-scroll" src="Icon/Partner-1.svg" alt="Partner 1">
+          <img class="svg-logo-partner-2 sal-scroll" src="Icon/Partner-2.svg" alt="Partner 2">
+          <img class="svg-logo-partner-3 sal-scroll" src="Icon/Partner-3.svg" alt="Partner 3">
+          <img class="svg-logo-partner-4 sal-scroll" src="Icon/Partner-4.svg" alt="Partner 4">
+          <img class="svg-logo-partner-5 sal-scroll" src="Icon/Partner-5.svg" alt="Partner 5">
         </div>
         <!-- End Of Logo Partner -->
       </div>
@@ -377,15 +355,14 @@
     <!-- End Of Section Our Partner -->
     <div class="section-faq">
       <div class="faq-desc-wrap">
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true" class="faq-desc">
+        <div class="faq-desc sal-scroll">
           <div class="faq-headline">Frequently Asked Question</div>
         </div>
       </div>
       <!-- End Of FAQ Desc Wrap -->
       <div class="faq-content-wrap">
         <div class="faq-content">
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="faq-point-how">
+          <div class="faq-point-how sal-scroll">
             <div class="faq-point-how-headline">How do I get in touch with BlitzScale and request services?</div>
             <ul class="faq-list-how">
               <li class="faq-list-how-desc">Click on the "Contact Us" link on our website.</li>
@@ -396,10 +373,8 @@
             </ul>
           </div>
           <!-- End Of FAQ Point How -->
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="faq-point-what">What is BlitzScale?</div>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-            class="faq-point-where">Where is BlitzScale located?</div>
+          <div class="faq-point-what sal-scroll">What is BlitzScale?</div>
+          <div class="faq-point-where sal-scroll">Where is BlitzScale located?</div>
         </div>
       </div>
       <!-- End Of FAQ Desc Wrap -->
@@ -408,14 +383,12 @@
     <div class="section-cta">
       <div class="cta-content-wrap">
         <div class="cta-content">
-          <div class="work-together">
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" data-sal-repeat="true"
-              class="headline-cta-blitzscale">Let's Work Together</div>
-            <div data-sal="slide-up" data-sal-delay="400" data-sal-duration="1000" data-sal-repeat="true"
-              class="headline-cta-blitzscale">With</div>
+          <div class="work-together sal-scroll">
+            <div class="headline-cta-blitzscale">Let's Work Together</div>
+            <div class="headline-cta-blitzscale">With</div>
           </div>
-          <svg data-sal="slide-up" data-sal-delay="600" data-sal-duration="1000" data-sal-repeat="true"
-            viewBox="0 0 1170 182" fill="none" class="image-logo-cta" xmlns="http://www.w3.org/2000/svg">
+          <svg class="sal-scroll" viewBox="0 0 1170 182" fill="none" class="image-logo-cta"
+            xmlns="http://www.w3.org/2000/svg">
             <rect width="1170" height="182" fill="#EFEFEF" />
             <path
               d="M85.9002 3.65234C118.567 3.65234 142.588 22.8843 142.588 48.9611C142.588 69.5988 127.576 85.6657 106.829 88.1637C132.207 90.4782 150.048 107.893 150.048 131.337C150.048 158.941 125.403 178.293 90.2688 178.293H0V3.65234H85.9047H85.9002ZM116.842 52.256C116.842 36.8069 104.674 27.464 84.4923 27.464H25.9534V79.0625H84.6734C103.877 79.0625 116.842 68.2558 116.842 52.256ZM86.5747 154.482C111.831 154.482 124.303 145.748 124.303 127.98C124.303 110.212 111.953 101.661 86.6336 101.661H25.9262V154.482H86.5747Z"
@@ -449,8 +422,7 @@
               d="M1142.14 178.302C1126.78 178.302 1114.29 165.938 1114.29 150.753C1114.29 135.568 1126.79 123.203 1142.14 123.203C1157.5 123.203 1170 135.563 1170 150.753C1170 165.942 1157.5 178.302 1142.14 178.302ZM1142.14 128.356C1129.66 128.356 1119.5 138.406 1119.5 150.753C1119.5 163.1 1129.66 173.15 1142.14 173.15C1154.63 173.15 1164.79 163.1 1164.79 150.753C1164.79 138.406 1154.63 128.356 1142.14 128.356Z"
               fill="black" />
           </svg>
-          <div data-sal="slide-up" data-sal-delay="1000" data-sal-duration="1000" data-sal-repeat="true"
-            class="button-cta-blitzscale">
+          <div d class="button-cta-blitzscale sal-scroll">
             <button id="button-cta-blitzscale-click">Contact Us!</button>
           </div>
           <!-- End Of Button CTA Blitzscale -->
@@ -542,14 +514,6 @@
       </div>
     </div>
     </ontainer>
-    <script src="carousel.js" defer></script>
-    <script src="button-scroll.js" defer></script>
-    <script src="dropdown-menu.js" defer></script>
-    <!-- JS SAL -->
-    <script src="https://unpkg.com/sal.js/dist/sal.js"></script>
-    <script>
-      sal(); // Wajib dipanggil setelah DOM load
-    </script>
 </body>
 
 </html>
