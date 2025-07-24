@@ -84,10 +84,15 @@ body {
   border: solid 2px #fff;
   backdrop-filter: blur(24px);
   width: 100%;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  /* pointer-events: auto; */
 }
 
 .dropdown-content.hide {
-  display: none;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .menu-list-dropdown {
